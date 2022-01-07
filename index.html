@@ -1,0 +1,428 @@
+<!DOCTYPE html>
+<html>
+<head>
+        <title>Company Bài Tập Bootstrap </title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        
+
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>  
+
+        <!--link nhún fontawesome -->
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css" integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk" crossorigin="anonymous">    
+        
+        <!-- Link nhúng font -->
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
+
+       
+
+        <style>
+            nav {
+            background-color: #f4511e;
+            
+            font-family: 'Montserrat', sans-serif;
+            }
+            .company {
+                background-color: #f4511e;
+                padding: 100px 25px;
+            }
+            h1 {
+                font-size: 63px;
+            }
+            h2 {
+                font-size: 24px;
+                text-transform: uppercase;
+                color: #303030;
+                font-weight: 600;
+                margin-bottom: 30px;
+            }
+            h4 {
+                font-size: 19px;
+                line-height: 1.375em;
+                color: #303030;
+                font-weight: 400;
+                margin-bottom: 30px;
+            }
+            h3 {
+                margin-bottom: 30px;
+            }
+            .container-fluid {
+                padding: 60px 60px;
+            }
+            ul li a {
+                text-transform: uppercase;
+            }
+
+            ul li:hover {
+                background-color: white;
+                
+            }
+
+            ul li a:hover {
+                color:#f4511e !important;
+            }
+
+            /* ABOUT */
+            .fa-signal, .fa-globe-americas {
+                color: #f4511e;
+                font-size: 200px;
+            }
+
+            /* service */
+            .icon-service {
+                color: #f4511e;
+                font-size: 50px;
+                margin-top: 20px;
+                margin-bottom: 15px;
+            }
+
+            /* portfolio */
+            .carousel-indicators li {
+                border-radius: 100%;
+                width: 12px;
+                height: 12px;
+                background-color: #f4511e;
+            }
+
+            /* pricing */
+            .price-header {
+            background-color: #f4511e;
+            border: 1px solid #f4511e;
+
+            }
+
+            .price-body {
+            border: 1px solid #f4511e;
+            
+            }
+
+            .price-body>button {
+            background-color: #f4511e;
+            color: #ffff;
+            }
+            .price-body>button:hover {
+            border:1px solid #f4511e;
+            color: #f4511e;
+            }
+            #box_1:hover {
+            box-shadow: 10px 10px 100px grey;
+            }
+
+
+            
+          
+
+        </style>
+</head>
+<body data-spy="scroll" data-target=".navbar">
+
+    <nav class="navbar navbar-expand-sm m-0 fixed-top">
+        <div class="container">
+            <a class="navbar-brand text-white" href="#">Logo</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="collapsibleNavbar">
+                <ul class="navbar-nav ml-auto float-right">
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="#about">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="#services">Services</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="#portfolio">Portfolio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="#pricing">Pricing</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="#contact">contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="company text-center text-white" id="about">
+        <h1>Company</h1>
+        <p>We specialize in blablabla</p>
+        <div class="input-group w-50 mx-auto">
+            <input type="email" class="form-control" placeholder="Email Address">
+            <div class="input-group-btn">
+                <button class="btn btn-danger" type="button">Subcribes</button>
+            </div>
+        </div>
+        
+    </div>
+
+<!--Container: About -->
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-sm-8">
+                <h2>About company page</h2>
+                <h4>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</h4>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                <br>
+                <button type="button" class="btn border-secondary">Get in Touch</button>
+            </div>
+
+            <div class="col-sm-4">
+                <i class="fas fa-signal"></i>
+                
+            </div>
+
+        </div>
+    
+    </div>
+
+    <div class="container-fluid bg-light">
+        <div class="row">
+            <div class="col-sm-4">
+                <i class="fas fa-globe-americas"></i>
+            </div>
+
+            <div class="col-sm-8">
+                <h2>Out Values</h2>
+                <h4><strong>MISSION:</strong Our mission lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</h4>
+                <p><strong>VISION:</strong> Our vision Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+            </div>
+        </div>
+    </div>
+
+<!-- Container khoi services-->
+    <div id="services" class="container-fluid text-center">
+        <h2>SERVICES</h2>
+        <h4>What we offer</h4>
+        <br>
+        <div class="row">
+            <div class="col-sm-4" style="text-align: center">
+                <i class="fas fa-power-off icon-service"></i>
+                <h3>Power</h3>
+                <p>Lorem ipsum dolor sit amet..</p>
+            </div>
+
+            <div class="col-sm-4" style="text-align: center ">
+                <i class="fas fa-heart icon-service"></i>
+                <h3>Love</h3>
+                <p>Lorem ipsum dolor sit amet..</p>
+            </div>
+
+            <div class="col-sm-4" style="text-align: center">
+                <i class="fas fa-briefcase icon-service"></i>
+                <h3>Job done</h3>
+                <p>Lorem ipsum dolor sit amet..</p>
+            </div>
+
+            <div class="col-sm-4" style="text-align: center">
+                <i class="fab fa-envira icon-service"></i>
+                <h3>Green</h3>
+                <p>Lorem ipsum dolor sit amet..</p>
+            </div>
+
+            <div class="col-sm-4" style="text-align: center">
+                <i class="fas fa-certificate icon-service"></i>
+                <h3>Certified</h3>
+                <p>Lorem ipsum dolor sit amet..</p>
+            </div>
+
+            <div class="col-sm-4" style="text-align: center">
+                <i class="fas fa-wrench icon-service"></i>
+                <h3>Hard work</h3>
+                <p>Lorem ipsum dolor sit amet..</p>
+            </div>
+
+        </div>
+
+    </div>
+    <!-- Section Portfolio -->
+    <div id="portfolio" class="container-fluid text-center bg-light">
+        <h2>Portfolio</h2>
+        <h4>What we have created</h4>
+        <div class="row text-center">
+            <div class="col-sm-4 bg-white ">
+                <img src="paris-company.jpg" alt="paris" class="w-100">
+                <p><strong>Paris</strong></p>
+                <p>Yes, we built Paris</p>
+            </div>
+
+            <div class="col-sm-4 bg-white ">
+                <img src="newyork-company.jpg" alt="newyork" class="w-100">
+                <p><strong>New York</strong></p>
+                <p>We built New York</p>
+            </div>
+
+            <div class="col-sm-4 bg-white ">
+                <img src="sanfran-company.jpg" alt="sanfran" class="w-100">
+                <p><strong>San Francisco</strong></p>
+                <p>Yes, San fran is ours</p>
+            </div>
+        </div>
+        <br>
+        <h2>What our customers say</h2>
+        
+        
+        <div id="demo" class="carousel slide text-center" data-ride="carousel">
+            <!--indicator-->
+            <ol class="carousel-indicators">
+                <li data-target="#demo" data-slide-to="0" class="active abc"></li>
+                <li data-target="#demo" data-slide-to="1" class="abc"></li>
+                <li data-target="#demo" data-slide-to="2" class="abc"></li>
+            </ol>
+
+            <!--The slide show-->
+            <div class="carousel-inner p-5">
+                <div class="carousel-item active">
+                    <h4><i>"This company is the best. I am so happy with the result!"</i><br><span>Michael Roe, Vice President, Comment Box</span></h4>
+                </div>
+
+                <div class="carousel-item">
+                    <h4><i>"One word... WOW!!"</i><br><span>John Doe, Salesman, Rep Inc</span></h4>
+                </div>
+
+                <div class="carousel-item">
+                    <h4><i>"Could I... BE any more happy with this company?"</i><br><span>Chandler Bing, Actor, FriendsAlot</span></h4>
+                </div>
+
+            </div>
+            <!-- Left and right controls -->
+            <a class="carousel-control-prev control" href="#demo" data-slide="prev">
+                <i class="fas fa-angle-left" style="color:#f4511e;font-size: 40px;"></i>
+            </a>
+            <a class="carousel-control-next control" href="#demo" data-slide="next">
+                <i class="fas fa-angle-right" style="color:#f4511e;font-size: 40px;"></i>
+            </a>
+
+        </div>
+
+        
+    </div>
+
+    <!--PRICING section-->
+    <div id="pricing" class="container-fluid text-center">
+        <div class="text-center">
+            <h2>Pricing</h2>
+            <h4>Choose a payment plan that works for you</h4>
+        </div>
+        <div class="row">
+            <div class="col-sm-4 col-xs-12">
+                <div id="box_1">
+                    <div class="price-header">
+                        <h1 class="text-light p-4">Basic</h1>
+                    </div>
+                    <div class="price-body text-muted">
+                        <p><b>20 </b>Lorem</p>
+                        <p><b>15 </b>Ipsum</p>
+                        <p><b>5 </b>Dolor</p>
+                        <p><b>2 </b>Sit</p>
+                        <p class="pb-4 border-bottom border-secondary"><b>Endless </b>Amet</p>
+                        <b style="font-size: 50px;">$19</b><br>
+                        <p>per month</p>
+                        <button class="btn btn-light btn-lg mb-4" type="button">Sign UP</button>
+                    </div>
+                </div> 
+            </div>     
+            <div class="col-sm-4 col-xs-12">
+                <div id="box_1">
+                    <div class="price-header">
+                        <h1 class="text-light p-4">Pro</h1>
+                    </div>
+                    <div class="price-body text-muted">
+                        <p><b>50 </b>Lorem</p>
+                        <p><b>25 </b>Ipsum</p>
+                        <p><b>10 </b>Dolor</p>
+                        <p><b>5 </b>Sit</p>
+                        <p class="pb-4 border-bottom border-secondary"><b>Endless </b>Amet</p>
+                        <b style="font-size: 50px;">$29</b><br>
+                        <p>per month</p>
+                        <button class="btn btn-light btn-lg  mb-4" type="button">Sign UP</button>
+                    </div>
+                </div>     
+            </div>       
+            <div class="col-sm-4 col-xs-12">
+                <div id="box_1">
+                    <div class="price-header">
+                        <h1 class="text-light p-4">Premium</h1>
+                    </div>
+                    <div class="price-body text-muted">
+                        <p><b>100 </b>Lorem</p>
+                        <p><b>50 </b>Ipsum</p>
+                        <p><b>25 </b>Dolor</p>
+                        <p><b>10 </b>Sit</p>
+                        <p class="pb-4 border-bottom border-secondary"><b>Endless </b>Amet</p>
+                        <b style="font-size: 50px;">$49</b><br>
+                        <p>per month</p>
+                        <button class="btn btn-light btn-lg mb-4" type="button">Sign UP</button>
+                    </div>
+                </div>     
+            </div>    
+        </div>
+    </div>
+
+
+    <!--Contact section-->
+    <div id="contact" class="container-fluid bg-light">
+        <h2 class="text-center">CONTACT</h2>
+        <div class="row">
+            <div class="col-sm-5">
+                <p>Contact us and we'll get back to you within 24 hours.</p>
+                <p><i class="fas fa-map-marker-alt"></i> Chicago, US</p>
+                <p><i class="fas fa-phone"></i> +00 1515151515</p>
+                <p><i class="fas fa-envelope"></i>  myemail@something.com</p>
+            </div>
+
+            <div class="col-sm-7">
+                <div class="row">
+                    <div class="col-sm-6 form-group">
+                        <input class="form-control" type="text" id="name" name="name" placeholder="Name">
+
+                    </div>
+
+                    <div class="col-sm-6 form-group">
+                        <input class="form-control" type="email" id="email" name="email" placeholder="Email">
+
+                    </div>
+                </div>
+                <textarea class="form-control" id="conmments" name="conmments" placeholder="Comment" rows="5"></textarea>
+                <br>
+
+                <button type="button" class="btn btn-outline-secondary float-right">Send</button>
+            </div>
+
+        </div>
+    </div>
+    <!-- Map image -->
+    <img src="map.jpg" alt="map" class="w-100">
+
+    <!--Footer-->
+    <div class="container-fluid text-center bg-white text-secondary py-5">
+        <span class="glyphicon glyphicon-chevron-up"></span>
+        <p>Bootstrap Theme Made By <span><a href="https://www.w3schools.com">www.w3schools.com</a></span></p>
+
+    </div>
+
+    
+    
+    
+
+
+
+
+
+     
+    
+
+    
+    
+
+
+
+
+    
+  
+</body>
+</html>
